@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>
+			Starbucks-Productos
+		</title>
+		<link rel= "shortcut icon"	href="starbuckslogo.png">
+		<link rel= "stylesheet" 	href="Estilo.css">
+	</head>
+	<body> 
+		<div class="divheader">
+		<img src=starbuckslogo.png class="body">
+		<h1 id="fuente-lemon">
+			Americano
+		</h1>
+		</div>
+		<div class="divbody">
+			<center>
+			<div class="caja">
+				<img src=americano1.jpg width="200" height="200">
+				</div>
+	
+
+			<div class="caja">
+				<img src=americano2.jpg width="200" height="200">
+	
+			</div>
+			
+			
+			<div class="caja">
+				<img src=americano3.jpg width="200" height="200">
+	
+			</div>
+			
+			
+			<div class="caja">
+				<img src=americano4.webp width="200" height="200">
+
+			</div>
+			</center>
+		</table>
+		<br>
+		</div>
+		<div class="divmenu">
+		<table class="table2">
+			<tr>
+				<td>
+					<A href="Principal.html">
+						<img src=coffee-cup.png class="menu">
+					</A>
+				</td>
+				<td>
+					<A href="Historia.html">
+						<img src=coffee-shop.png class="menu">
+					</A>
+				</td>
+				<td>
+					<A href="Productos.html">
+						<img src=menu.png class="menu">
+					</A>
+				</td>
+				<td>
+					<A href="Contacto.html">
+						<img src=online-order.png class="menu">
+					</A>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<A href="Principal.html">
+						<font class="letra">
+							Principal
+						</font>
+					</A>
+				</td>
+				<td>
+					<A href="Historia.html">
+						<font class="letra">
+							Historia
+						</font>
+					</A>
+					
+				</td>
+				<td>
+					<A href="Productos.html">
+						<font class="letra">
+							Productos
+						</font>
+					</A>
+				</td>
+				<td>
+					<A href="Contacto.html">
+						<font class="letra">
+							Contacto
+						</font>
+					</A>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div class="divfooter">
+		<p>
+			&copy; 2022. Derechos Reservados
+			<br>
+				Desarrollado por : López Arana Andrés Emilio
+				Matrícula: 01905200
+				Grupo: 605
+			<br>
+			Plantel Nueva Tijuana
+		</p>
+		</div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Starbucks</title>
+		<link rel="shortcut icon" href="starbuckslogo.png">
+		<link rel= "stylesheet" 	href="Estilo.css">
+	</head>
+	<body> 
+		<img src=starbuckslogo.png class="body">
+		<h1 align="center">
+		</h1>
+		<hr>
+	   
+	   <meta http-equiv="refresh" content="300;URL=Principal.html">
+	   <center>
+	   
+	   <iframe width="560" height="315" src="https://www.youtube.com/embed/aIzwBmYEt2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	   
+	   </center>
+	   </body>
+</html>
+		  

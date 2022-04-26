@@ -1,0 +1,282 @@
+body
+{
+	background:#1E8449;
+}
+/* estilo para el header 1 */
+h1
+{
+	color:#D0D3D4;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+/* estilo para paragraph */
+p
+{
+	color:#D0D3D4;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+/* estilo para tables */
+/* PRODUCTOS*/
+table.table1
+{
+	color: #D0D3D4;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border: 0;
+	width: 100%;
+	height: 0%;
+	border-color: #138D75;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+/* estilo para table.table1:header */
+table.table1 th
+{
+	color: #D0D3D4;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #138D75;
+	border-color: #707B7C;
+	border-style: solid;
+}
+
+/* estilo para table.table1::columnas */
+table.table1 td
+{
+	color: #bfd9ca;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #58D68D;
+	border-color: #707B7C;
+	border-style: solid;
+}
+
+/* estilo para table.table1::renglones */
+table.table1 tr
+{
+	color: #D0D3D4;
+	font-family: Arial;
+	font-size: 20px
+	text-align: center;
+	/*background-color: #138D75;
+	border-color: #707B7C;
+	border-style: solid;*/
+}
+
+
+/*table: MENU */
+table.table2
+{
+	color: #D0D3D4;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border: 0;
+	width: 100%;
+	height: 0%;
+	border-color: #138D75;
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+img.body{
+	width: 200px;
+	height: 200px;
+}
+img.menu{
+	width: 70px;
+	height: 70px;
+}
+img.productos{
+	width: 250px;
+	height: 250px;
+}
+
+.letra{
+	color: white;
+	font-size: 20px;
+	font-family: tahoma;
+}
+
+.letrahistoria{
+	color: white;
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+.table3{
+	border: 2;
+	border-color: #138D75;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+.th{
+	font-family: tahoma;
+	color:white;
+	font-size: 15px;
+	text-align: center;
+	border-color: #58D68D ;
+	border-style: solid;
+}
+
+.divheader{
+	border: 10px;
+	border-color: #27AE60;
+	border-style: solid;
+	background-color: #27AE60;
+}
+
+.divbody{
+	border: 10px;
+	border-color: #229954;
+	border-style: solid;
+	background-color: #229954;
+}
+
+.divmenu{
+	border: 10px;
+	border-color: #1E8449;
+	border-style: solid;
+	background-color: #1E8449;
+}
+
+.divfooter{
+	border: 10px;
+	border-color: #145A32;
+	border-style: solid;
+	background-color: #145A32;
+}
+
+.caja{
+	height: 250px;
+	width: 250px;
+	background: #229954;
+	border: 1px solid #229954;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	display: inline-block;
+}
+
+.caja:hover{
+	/* Agregar sombra al div*/
+	/*         x y  radio color*/
+	box-shadow:0 0 10px red;
+	/* Cambia la escala de tamaño */
+	transform: scale(1.3);
+}
+
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	border:0;
+}
+
+.texto-adicional{
+	padding-top: 5px;
+	font-size: 25px;
+	border:0;
+}
+
+@font-face{
+	font-family: "mifuente";
+	src: url(Lemon_Tea.ttf);
+}
+
+#fuente-google{
+	font-family: 'EB Garamond', serif;
+}
+
+#fuente-lemon{
+	font-family: "mifuente";
+}
+
+.div1{
+	background: #02301D;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div1:hover{
+	width:900px
+}
+
+
+.div2{
+	background: #034027;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div2:hover{
+	width:900px
+}
+
+
+.div3{
+	background: #076740;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div3:hover{
+	width:900px
+}
+
+
+.div4{
+	background: #0B8754;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div4:hover{
+	width:900px
+}
+.contenedor{
+	display:flex
+}
+.img3{
+	height:140px;
+	width:140px;
+	color: white;
+	font-size: 15px;
+	font-family: tahoma;
+	
+}
